@@ -12,8 +12,9 @@ function objetContenuInput(){
   this.mesObjet = function(){
     var contenuInput = new formulaire ($("#titre").val(),$("#phrase").val(),$("#descript").val());
     tab.push(contenuInput);
-
+    
   }
+
   this.mesAffichages = function(){
   $(".carte").append("<div class='affichage'><p class='background'>" + tab[indice].titre + "</p><p class='background'>" + tab[indice].phrase + "</p><p class='background'>" + tab[indice].description + "</p></div>")
   indice++;

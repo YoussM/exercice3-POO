@@ -101,7 +101,7 @@ textarea {
 
 
    .header{
-     background-color: black;
+     background-color: #376B8C;
      width: 100%;
      height: 100px;
      color: white;
@@ -117,7 +117,7 @@ textarea {
 
   .affichage{
   width: 120px;
-  background-color:#36BF8D; ;
+  background-color:#376B8C;
   border-radius: 20px;
   padding: 20px;
   overflow: auto;
@@ -135,15 +135,20 @@ display: flex ;
 }
 
 footer{
-background-color: black;
+background-color: #376B8C;
 width: 100%;
 height: 100px;
 color: white;
 font-family: 'Lobster', sans-serif;
+padding-top: 50px;
 }
 #design{
   margin-left: 587px;
   margin-top: 20px;
+  font-size: 15px;
+}
+.titre{
+  color: black;
 }
    @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
 
@@ -220,7 +225,7 @@ font-family: 'Lobster', sans-serif;
    	-webkit-transition:border-color 0.3s ease-in-out;
    	-moz-transition:border-color 0.3s ease-in-out;
    	transition:border-color 0.3s ease-in-out;
-   	border:3px solid #36BF8D;
+   	border:3px solid grey;
    }
 
    #contact textarea {
@@ -241,7 +246,7 @@ font-family: 'Lobster', sans-serif;
    }
 
    #contact button[type="submit"]:hover {
-   	background:#36BF8D;
+   	background:grey;
    	-webkit-transition:background 0.3s ease-in-out;
    	-moz-transition:background 0.3s ease-in-out;
    	transition:background-color 0.3s ease-in-out;
